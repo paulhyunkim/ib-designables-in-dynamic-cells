@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6962CD8D1CC977CD005A8059 /* MyCustomView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6962CD8C1CC977CD005A8059 /* MyCustomView2.xib */; };
+		6962CD911CC97DE8005A8059 /* MyCustomView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6962CD8E1CC977DB005A8059 /* MyCustomView2.swift */; };
+		6962CD921CC97DF2005A8059 /* MyCustomView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6962CD8C1CC977CD005A8059 /* MyCustomView2.xib */; };
+		6962CD971CC987DF005A8059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FD320E1CC955F500C88ACA /* Assets.xcassets */; };
+		6962CD981CC98827005A8059 /* MyCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69FD32641CC95B9300C88ACA /* MyCustomView.xib */; };
+		6962CD991CC98883005A8059 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6962CD951CC986EF005A8059 /* Image.png */; };
+		6962CD9A1CC9888A005A8059 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6962CD951CC986EF005A8059 /* Image.png */; };
+		6962CDA11CC98D13005A8059 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6962CD9F1CC98D13005A8059 /* MyCustomCell.xib */; };
+		6962CDA21CC98EAA005A8059 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6962CD9E1CC98D13005A8059 /* MyCustomCell.swift */; };
+		6962CDA31CC98EAD005A8059 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6962CD9F1CC98D13005A8059 /* MyCustomCell.xib */; };
 		69FD32081CC955F500C88ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32071CC955F500C88ACA /* AppDelegate.swift */; };
 		69FD320A1CC955F500C88ACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32091CC955F500C88ACA /* ViewController.swift */; };
 		69FD320D1CC955F500C88ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FD320B1CC955F500C88ACA /* Main.storyboard */; };
@@ -14,6 +24,15 @@
 		69FD32121CC955F500C88ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FD32101CC955F500C88ACA /* LaunchScreen.storyboard */; };
 		69FD321D1CC955F500C88ACA /* demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD321C1CC955F500C88ACA /* demoTests.swift */; };
 		69FD32281CC955F500C88ACA /* demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32271CC955F500C88ACA /* demoUITests.swift */; };
+		69FD32391CC956AB00C88ACA /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32371CC956AB00C88ACA /* MyTableViewCell.swift */; };
+		69FD323A1CC956AB00C88ACA /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69FD32381CC956AB00C88ACA /* MyTableViewCell.xib */; };
+		69FD32471CC959CC00C88ACA /* MyCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FD32461CC959CC00C88ACA /* MyCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69FD324E1CC959CC00C88ACA /* MyCustomView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FD32441CC959CC00C88ACA /* MyCustomView.framework */; };
+		69FD32551CC959CC00C88ACA /* MyCustomViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32541CC959CC00C88ACA /* MyCustomViewTests.swift */; };
+		69FD32591CC959CC00C88ACA /* MyCustomView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FD32441CC959CC00C88ACA /* MyCustomView.framework */; };
+		69FD325A1CC959CC00C88ACA /* MyCustomView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 69FD32441CC959CC00C88ACA /* MyCustomView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		69FD32631CC95AEF00C88ACA /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32621CC95AEF00C88ACA /* MyCustomView.swift */; };
+		69FD32651CC95B9300C88ACA /* MyCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69FD32641CC95B9300C88ACA /* MyCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +50,49 @@
 			remoteGlobalIDString = 69FD32031CC955F500C88ACA;
 			remoteInfo = demo;
 		};
+		69FD324F1CC959CC00C88ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69FD31FC1CC955F500C88ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69FD32431CC959CC00C88ACA;
+			remoteInfo = MyCustomView;
+		};
+		69FD32511CC959CC00C88ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69FD31FC1CC955F500C88ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69FD32031CC955F500C88ACA;
+			remoteInfo = demo;
+		};
+		69FD32571CC959CC00C88ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69FD31FC1CC955F500C88ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69FD32431CC959CC00C88ACA;
+			remoteInfo = MyCustomView;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		69FD325E1CC959CC00C88ACA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				69FD325A1CC959CC00C88ACA /* MyCustomView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6962CD8C1CC977CD005A8059 /* MyCustomView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomView2.xib; sourceTree = "<group>"; };
+		6962CD8E1CC977DB005A8059 /* MyCustomView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomView2.swift; sourceTree = "<group>"; };
+		6962CD951CC986EF005A8059 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image.png; path = demo/Assets.xcassets/Image.imageset/Image.png; sourceTree = "<group>"; };
+		6962CD9E1CC98D13005A8059 /* MyCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		6962CD9F1CC98D13005A8059 /* MyCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
 		69FD32041CC955F500C88ACA /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD32071CC955F500C88ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69FD32091CC955F500C88ACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +106,16 @@
 		69FD32231CC955F500C88ACA /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD32271CC955F500C88ACA /* demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoUITests.swift; sourceTree = "<group>"; };
 		69FD32291CC955F500C88ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69FD32371CC956AB00C88ACA /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		69FD32381CC956AB00C88ACA /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		69FD32441CC959CC00C88ACA /* MyCustomView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCustomView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FD32461CC959CC00C88ACA /* MyCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCustomView.h; sourceTree = "<group>"; };
+		69FD32481CC959CC00C88ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69FD324D1CC959CC00C88ACA /* MyCustomViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCustomViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FD32541CC959CC00C88ACA /* MyCustomViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomViewTests.swift; sourceTree = "<group>"; };
+		69FD32561CC959CC00C88ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69FD32621CC95AEF00C88ACA /* MyCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
+		69FD32641CC95B9300C88ACA /* MyCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FD32591CC959CC00C88ACA /* MyCustomView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,16 +141,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69FD32401CC959CC00C88ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FD324A1CC959CC00C88ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FD324E1CC959CC00C88ACA /* MyCustomView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		69FD31FB1CC955F500C88ACA = {
 			isa = PBXGroup;
 			children = (
+				6962CD951CC986EF005A8059 /* Image.png */,
 				69FD32061CC955F500C88ACA /* demo */,
 				69FD321B1CC955F500C88ACA /* demoTests */,
 				69FD32261CC955F500C88ACA /* demoUITests */,
+				69FD32531CC959CC00C88ACA /* MyCustomViewTests */,
 				69FD32051CC955F500C88ACA /* Products */,
+				69FD32451CC959CC00C88ACA /* MyCustomView */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +178,8 @@
 				69FD32041CC955F500C88ACA /* demo.app */,
 				69FD32181CC955F500C88ACA /* demoTests.xctest */,
 				69FD32231CC955F500C88ACA /* demoUITests.xctest */,
+				69FD32441CC959CC00C88ACA /* MyCustomView.framework */,
+				69FD324D1CC959CC00C88ACA /* MyCustomViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +193,8 @@
 				69FD320E1CC955F500C88ACA /* Assets.xcassets */,
 				69FD32101CC955F500C88ACA /* LaunchScreen.storyboard */,
 				69FD32131CC955F500C88ACA /* Info.plist */,
+				69FD32371CC956AB00C88ACA /* MyTableViewCell.swift */,
+				69FD32381CC956AB00C88ACA /* MyTableViewCell.xib */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -125,7 +217,42 @@
 			path = demoUITests;
 			sourceTree = "<group>";
 		};
+		69FD32451CC959CC00C88ACA /* MyCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				69FD32461CC959CC00C88ACA /* MyCustomView.h */,
+				69FD32621CC95AEF00C88ACA /* MyCustomView.swift */,
+				69FD32641CC95B9300C88ACA /* MyCustomView.xib */,
+				69FD32481CC959CC00C88ACA /* Info.plist */,
+				6962CD8C1CC977CD005A8059 /* MyCustomView2.xib */,
+				6962CD8E1CC977DB005A8059 /* MyCustomView2.swift */,
+				6962CD9E1CC98D13005A8059 /* MyCustomCell.swift */,
+				6962CD9F1CC98D13005A8059 /* MyCustomCell.xib */,
+			);
+			path = MyCustomView;
+			sourceTree = "<group>";
+		};
+		69FD32531CC959CC00C88ACA /* MyCustomViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				69FD32541CC959CC00C88ACA /* MyCustomViewTests.swift */,
+				69FD32561CC959CC00C88ACA /* Info.plist */,
+			);
+			path = MyCustomViewTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69FD32411CC959CC00C88ACA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FD32471CC959CC00C88ACA /* MyCustomView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		69FD32031CC955F500C88ACA /* demo */ = {
@@ -135,10 +262,12 @@
 				69FD32001CC955F500C88ACA /* Sources */,
 				69FD32011CC955F500C88ACA /* Frameworks */,
 				69FD32021CC955F500C88ACA /* Resources */,
+				69FD325E1CC959CC00C88ACA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				69FD32581CC959CC00C88ACA /* PBXTargetDependency */,
 			);
 			name = demo;
 			productName = demo;
@@ -181,6 +310,43 @@
 			productReference = 69FD32231CC955F500C88ACA /* demoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		69FD32431CC959CC00C88ACA /* MyCustomView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FD325B1CC959CC00C88ACA /* Build configuration list for PBXNativeTarget "MyCustomView" */;
+			buildPhases = (
+				69FD323F1CC959CC00C88ACA /* Sources */,
+				69FD32401CC959CC00C88ACA /* Frameworks */,
+				69FD32411CC959CC00C88ACA /* Headers */,
+				69FD32421CC959CC00C88ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCustomView;
+			productName = MyCustomView;
+			productReference = 69FD32441CC959CC00C88ACA /* MyCustomView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69FD324C1CC959CC00C88ACA /* MyCustomViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FD325F1CC959CC00C88ACA /* Build configuration list for PBXNativeTarget "MyCustomViewTests" */;
+			buildPhases = (
+				69FD32491CC959CC00C88ACA /* Sources */,
+				69FD324A1CC959CC00C88ACA /* Frameworks */,
+				69FD324B1CC959CC00C88ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69FD32501CC959CC00C88ACA /* PBXTargetDependency */,
+				69FD32521CC959CC00C88ACA /* PBXTargetDependency */,
+			);
+			name = MyCustomViewTests;
+			productName = MyCustomViewTests;
+			productReference = 69FD324D1CC959CC00C88ACA /* MyCustomViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +368,13 @@
 						CreatedOnToolsVersion = 7.3;
 						TestTargetID = 69FD32031CC955F500C88ACA;
 					};
+					69FD32431CC959CC00C88ACA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					69FD324C1CC959CC00C88ACA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 69FD32031CC955F500C88ACA;
+					};
 				};
 			};
 			buildConfigurationList = 69FD31FF1CC955F500C88ACA /* Build configuration list for PBXProject "demo" */;
@@ -220,6 +393,8 @@
 				69FD32031CC955F500C88ACA /* demo */,
 				69FD32171CC955F500C88ACA /* demoTests */,
 				69FD32221CC955F500C88ACA /* demoUITests */,
+				69FD32431CC959CC00C88ACA /* MyCustomView */,
+				69FD324C1CC959CC00C88ACA /* MyCustomViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +404,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6962CD991CC98883005A8059 /* Image.png in Resources */,
+				69FD323A1CC956AB00C88ACA /* MyTableViewCell.xib in Resources */,
+				6962CDA11CC98D13005A8059 /* MyCustomCell.xib in Resources */,
 				69FD32121CC955F500C88ACA /* LaunchScreen.storyboard in Resources */,
 				69FD320F1CC955F500C88ACA /* Assets.xcassets in Resources */,
 				69FD320D1CC955F500C88ACA /* Main.storyboard in Resources */,
+				6962CD8D1CC977CD005A8059 /* MyCustomView2.xib in Resources */,
+				6962CD981CC98827005A8059 /* MyCustomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +429,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69FD32421CC959CC00C88ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6962CD9A1CC9888A005A8059 /* Image.png in Resources */,
+				6962CD971CC987DF005A8059 /* Assets.xcassets in Resources */,
+				6962CDA31CC98EAD005A8059 /* MyCustomCell.xib in Resources */,
+				69FD32651CC95B9300C88ACA /* MyCustomView.xib in Resources */,
+				6962CD921CC97DF2005A8059 /* MyCustomView2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FD324B1CC959CC00C88ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,6 +457,7 @@
 			files = (
 				69FD320A1CC955F500C88ACA /* ViewController.swift in Sources */,
 				69FD32081CC955F500C88ACA /* AppDelegate.swift in Sources */,
+				69FD32391CC956AB00C88ACA /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +477,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69FD323F1CC959CC00C88ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FD32631CC95AEF00C88ACA /* MyCustomView.swift in Sources */,
+				6962CD911CC97DE8005A8059 /* MyCustomView2.swift in Sources */,
+				6962CDA21CC98EAA005A8059 /* MyCustomCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FD32491CC959CC00C88ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FD32551CC959CC00C88ACA /* MyCustomViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +507,21 @@
 			isa = PBXTargetDependency;
 			target = 69FD32031CC955F500C88ACA /* demo */;
 			targetProxy = 69FD32241CC955F500C88ACA /* PBXContainerItemProxy */;
+		};
+		69FD32501CC959CC00C88ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69FD32431CC959CC00C88ACA /* MyCustomView */;
+			targetProxy = 69FD324F1CC959CC00C88ACA /* PBXContainerItemProxy */;
+		};
+		69FD32521CC959CC00C88ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69FD32031CC955F500C88ACA /* demo */;
+			targetProxy = 69FD32511CC959CC00C88ACA /* PBXContainerItemProxy */;
+		};
+		69FD32581CC959CC00C88ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69FD32431CC959CC00C88ACA /* MyCustomView */;
+			targetProxy = 69FD32571CC959CC00C88ACA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -401,6 +634,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.demo;
@@ -412,6 +646,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.demo;
@@ -465,6 +700,69 @@
 			};
 			name = Release;
 		};
+		69FD325C1CC959CC00C88ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyCustomView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.MyCustomView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69FD325D1CC959CC00C88ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyCustomView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.MyCustomView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69FD32601CC959CC00C88ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyCustomViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.MyCustomViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo.app/demo";
+			};
+			name = Debug;
+		};
+		69FD32611CC959CC00C88ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyCustomViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.MyCustomViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo.app/demo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -484,6 +782,7 @@
 				69FD322E1CC955F500C88ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69FD322F1CC955F500C88ACA /* Build configuration list for PBXNativeTarget "demoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +791,7 @@
 				69FD32311CC955F500C88ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69FD32321CC955F500C88ACA /* Build configuration list for PBXNativeTarget "demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +800,25 @@
 				69FD32341CC955F500C88ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FD325B1CC959CC00C88ACA /* Build configuration list for PBXNativeTarget "MyCustomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FD325C1CC959CC00C88ACA /* Debug */,
+				69FD325D1CC959CC00C88ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FD325F1CC959CC00C88ACA /* Build configuration list for PBXNativeTarget "MyCustomViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FD32601CC959CC00C88ACA /* Debug */,
+				69FD32611CC959CC00C88ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
