@@ -42,7 +42,18 @@ import UIKit
     func xibSetup() {
         view = loadViewFromNib()
         view.frame = bounds
+        view.translatesAutoresizingMaskIntoConstraints = false
+        
         addSubview(view)
+        
+        self.addConstraints(
+            [
+                NSLayoutConstraint(item: view, attribute: .Leading, relatedBy: .Equal, toItem: self, attribute: .Leading, multiplier: 1.0, constant: 0.0),
+                NSLayoutConstraint(item: view, attribute: .Trailing, relatedBy: .Equal, toItem: self, attribute: .Trailing, multiplier: 1.0, constant: 0.0),
+                NSLayoutConstraint(item: view, attribute: .Top, relatedBy: .Equal, toItem: self, attribute: .Top, multiplier: 1.0, constant: 0.0),
+                NSLayoutConstraint(item: view, attribute: .Bottom, relatedBy: .Equal, toItem: self, attribute: .Bottom, multiplier: 1.0, constant: 0.0),
+            ]
+        )
     }
     
     func loadViewFromNib() -> UIView {
