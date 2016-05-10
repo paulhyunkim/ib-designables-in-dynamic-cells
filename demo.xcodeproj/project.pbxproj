@@ -24,8 +24,6 @@
 		69FD32121CC955F500C88ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FD32101CC955F500C88ACA /* LaunchScreen.storyboard */; };
 		69FD321D1CC955F500C88ACA /* demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD321C1CC955F500C88ACA /* demoTests.swift */; };
 		69FD32281CC955F500C88ACA /* demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32271CC955F500C88ACA /* demoUITests.swift */; };
-		69FD32391CC956AB00C88ACA /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32371CC956AB00C88ACA /* MyTableViewCell.swift */; };
-		69FD323A1CC956AB00C88ACA /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69FD32381CC956AB00C88ACA /* MyTableViewCell.xib */; };
 		69FD32471CC959CC00C88ACA /* MyCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FD32461CC959CC00C88ACA /* MyCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69FD324E1CC959CC00C88ACA /* MyCustomView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FD32441CC959CC00C88ACA /* MyCustomView.framework */; };
 		69FD32551CC959CC00C88ACA /* MyCustomViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32541CC959CC00C88ACA /* MyCustomViewTests.swift */; };
@@ -106,8 +104,6 @@
 		69FD32231CC955F500C88ACA /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD32271CC955F500C88ACA /* demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoUITests.swift; sourceTree = "<group>"; };
 		69FD32291CC955F500C88ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69FD32371CC956AB00C88ACA /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
-		69FD32381CC956AB00C88ACA /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 		69FD32441CC959CC00C88ACA /* MyCustomView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCustomView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD32461CC959CC00C88ACA /* MyCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCustomView.h; sourceTree = "<group>"; };
 		69FD32481CC959CC00C88ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -193,8 +189,6 @@
 				69FD320E1CC955F500C88ACA /* Assets.xcassets */,
 				69FD32101CC955F500C88ACA /* LaunchScreen.storyboard */,
 				69FD32131CC955F500C88ACA /* Info.plist */,
-				69FD32371CC956AB00C88ACA /* MyTableViewCell.swift */,
-				69FD32381CC956AB00C88ACA /* MyTableViewCell.xib */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -405,7 +399,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6962CD991CC98883005A8059 /* Image.png in Resources */,
-				69FD323A1CC956AB00C88ACA /* MyTableViewCell.xib in Resources */,
 				6962CDA11CC98D13005A8059 /* MyCustomCell.xib in Resources */,
 				69FD32121CC955F500C88ACA /* LaunchScreen.storyboard in Resources */,
 				69FD320F1CC955F500C88ACA /* Assets.xcassets in Resources */,
@@ -457,7 +450,6 @@
 			files = (
 				69FD320A1CC955F500C88ACA /* ViewController.swift in Sources */,
 				69FD32081CC955F500C88ACA /* AppDelegate.swift in Sources */,
-				69FD32391CC956AB00C88ACA /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
