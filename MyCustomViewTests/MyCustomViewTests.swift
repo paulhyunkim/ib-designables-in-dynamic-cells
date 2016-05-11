@@ -1,15 +1,15 @@
 //
-//  MyCustomViewTests.swift
-//  MyCustomViewTests
+//  DesignableViewTests.swift
+//  DesignableViewTests
 //
 //  Created by Paul Kim on 4/21/16.
 //  Copyright © 2016 Paul Kim. All rights reserved.
 //
 
 import XCTest
-@testable import MyCustomView
+@testable import DesignableView
 
-class MyCustomViewTests: XCTestCase {
+class DesignableViewTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

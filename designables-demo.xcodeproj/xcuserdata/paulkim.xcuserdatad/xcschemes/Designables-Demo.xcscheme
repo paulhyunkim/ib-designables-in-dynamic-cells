@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69FD32431CC959CC00C88ACA"
-               BuildableName = "MyCustomView.framework"
-               BlueprintName = "MyCustomView"
-               ReferencedContainer = "container:demo.xcodeproj">
+               BuildableName = "DesignableViews.framework"
+               BlueprintName = "DesignableViews"
+               ReferencedContainer = "container:designables-demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69FD32031CC955F500C88ACA"
-               BuildableName = "demo.app"
-               BlueprintName = "demo"
-               ReferencedContainer = "container:demo.xcodeproj">
+               BuildableName = "designables-demo.app"
+               BlueprintName = "designables-demo"
+               ReferencedContainer = "container:designables-demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69FD32171CC955F500C88ACA"
-               BuildableName = "demoTests.xctest"
-               BlueprintName = "demoTests"
-               ReferencedContainer = "container:demo.xcodeproj">
+               BuildableName = "designables-demo.xctest"
+               BlueprintName = "designables-demoTests"
+               ReferencedContainer = "container:designables-demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -57,9 +57,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69FD32221CC955F500C88ACA"
-               BuildableName = "demoUITests.xctest"
-               BlueprintName = "demoUITests"
-               ReferencedContainer = "container:demo.xcodeproj">
+               BuildableName = "designables-demo.xctest"
+               BlueprintName = "designables-demoUITests"
+               ReferencedContainer = "container:designables-demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -67,9 +67,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69FD324C1CC959CC00C88ACA"
-               BuildableName = "MyCustomViewTests.xctest"
-               BlueprintName = "MyCustomViewTests"
-               ReferencedContainer = "container:demo.xcodeproj">
+               BuildableName = "DesignableViewsTest.xctest"
+               BlueprintName = "DesignableViewsTest"
+               ReferencedContainer = "container:designables-demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69FD32031CC955F500C88ACA"
-            BuildableName = "demo.app"
-            BlueprintName = "demo"
-            ReferencedContainer = "container:demo.xcodeproj">
+            BuildableName = "designables-demo.app"
+            BlueprintName = "designables-demo"
+            ReferencedContainer = "container:designables-demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -100,9 +100,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69FD32031CC955F500C88ACA"
-            BuildableName = "demo.app"
-            BlueprintName = "demo"
-            ReferencedContainer = "container:demo.xcodeproj">
+            BuildableName = "designables-demo.app"
+            BlueprintName = "designables-demo"
+            ReferencedContainer = "container:designables-demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -119,9 +119,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69FD32031CC955F500C88ACA"
-            BuildableName = "demo.app"
-            BlueprintName = "demo"
-            ReferencedContainer = "container:demo.xcodeproj">
+            BuildableName = "designables-demo.app"
+            BlueprintName = "designables-demo"
+            ReferencedContainer = "container:designables-demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

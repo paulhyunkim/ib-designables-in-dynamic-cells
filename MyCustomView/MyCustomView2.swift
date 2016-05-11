@@ -1,5 +1,5 @@
 //
-//  MyCustomView2.swift
+//  DesignableView2.swift
 //  demo
 //
 //  Created by Paul Kim on 4/21/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable public class MyCustomView2: UIView {
+@IBDesignable public class DesignableView2: UIView {
 
     var view: UIView!
     
@@ -55,7 +55,7 @@ import UIKit
     
     func loadViewFromNib() -> UIView {
         let bundle = NSBundle(forClass: self.dynamicType)
-        let nib = UINib(nibName: "MyCustomView2", bundle: bundle)
+        let nib = UINib(nibName: "DesignableView2", bundle: bundle)
         let view = nib.instantiateWithOwner(self, options: nil)[0] as! UIView
         
         return view

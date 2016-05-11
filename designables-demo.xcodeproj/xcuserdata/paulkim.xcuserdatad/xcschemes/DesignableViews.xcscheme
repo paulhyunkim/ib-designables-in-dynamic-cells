@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69FD32431CC959CC00C88ACA"
-               BuildableName = "MyCustomView.framework"
-               BlueprintName = "MyCustomView"
-               ReferencedContainer = "container:demo.xcodeproj">
+               BuildableName = "DesignableViews.framework"
+               BlueprintName = "DesignableViews"
+               ReferencedContainer = "container:designables-demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69FD32431CC959CC00C88ACA"
-            BuildableName = "MyCustomView.framework"
-            BlueprintName = "MyCustomView"
-            ReferencedContainer = "container:demo.xcodeproj">
+            BuildableName = "DesignableViews.framework"
+            BlueprintName = "DesignableViews"
+            ReferencedContainer = "container:designables-demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69FD32431CC959CC00C88ACA"
-            BuildableName = "MyCustomView.framework"
-            BlueprintName = "MyCustomView"
-            ReferencedContainer = "container:demo.xcodeproj">
+            BuildableName = "DesignableViews.framework"
+            BlueprintName = "DesignableViews"
+            ReferencedContainer = "container:designables-demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
