@@ -7,28 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6951F89B1CE2FD3D00017138 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951F8991CE2FB4900017138 /* DesignableView.swift */; };
-		6951F8A01CE306A600017138 /* DesignableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951F89C1CE302C200017138 /* DesignableCell.swift */; };
-		6962CD911CC97DE8005A8059 /* MyCustomView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6962CD8E1CC977DB005A8059 /* MyCustomView2.swift */; };
-		6962CD921CC97DF2005A8059 /* MyCustomView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6962CD8C1CC977CD005A8059 /* MyCustomView2.xib */; };
+		6951F8B41CE3097400017138 /* DesignableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6951F8A41CE3095700017138 /* DesignableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6951F8B51CE3097900017138 /* CustomCellAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951F8A11CE3095700017138 /* CustomCellAView.swift */; };
+		6951F8B61CE3097C00017138 /* DesignableTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951F8A31CE3095700017138 /* DesignableTableCell.swift */; };
+		6951F8B71CE3098000017138 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951F8A51CE3095700017138 /* DesignableView.swift */; };
+		6951F8B81CE309B800017138 /* CustomCellAView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6951F8A21CE3095700017138 /* CustomCellAView.xib */; };
+		6951F8B91CE30AFC00017138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FD320E1CC955F500C88ACA /* Assets.xcassets */; };
+		6951F8BB1CE30F1C00017138 /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951F8BA1CE30F1C00017138 /* Designable.swift */; };
+		6951F8BC1CE30F6600017138 /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951F8BA1CE30F1C00017138 /* Designable.swift */; };
+		6951F8BE1CE3113C00017138 /* DesignableTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951F8BD1CE3113C00017138 /* DesignableTableViewDataSource.swift */; };
 		6962CD971CC987DF005A8059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FD320E1CC955F500C88ACA /* Assets.xcassets */; };
-		6962CD991CC98883005A8059 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6962CD951CC986EF005A8059 /* Image.png */; };
-		6962CD9A1CC9888A005A8059 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6962CD951CC986EF005A8059 /* Image.png */; };
-		6962CDA31CC98EAD005A8059 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6962CD9F1CC98D13005A8059 /* MyCustomCell.xib */; };
+		69A161701CE3253400398460 /* DesignableTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1616F1CE3253400398460 /* DesignableTableViewDelegate.swift */; };
 		69FD32081CC955F500C88ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32071CC955F500C88ACA /* AppDelegate.swift */; };
 		69FD320A1CC955F500C88ACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32091CC955F500C88ACA /* ViewController.swift */; };
 		69FD320D1CC955F500C88ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FD320B1CC955F500C88ACA /* Main.storyboard */; };
-		69FD320F1CC955F500C88ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FD320E1CC955F500C88ACA /* Assets.xcassets */; };
 		69FD32121CC955F500C88ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FD32101CC955F500C88ACA /* LaunchScreen.storyboard */; };
 		69FD321D1CC955F500C88ACA /* demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD321C1CC955F500C88ACA /* demoTests.swift */; };
 		69FD32281CC955F500C88ACA /* demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32271CC955F500C88ACA /* demoUITests.swift */; };
-		69FD32471CC959CC00C88ACA /* DesignableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FD32461CC959CC00C88ACA /* DesignableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69FD324E1CC959CC00C88ACA /* DesignableViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FD32441CC959CC00C88ACA /* DesignableViews.framework */; };
 		69FD32551CC959CC00C88ACA /* MyCustomViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32541CC959CC00C88ACA /* MyCustomViewTests.swift */; };
 		69FD32591CC959CC00C88ACA /* DesignableViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FD32441CC959CC00C88ACA /* DesignableViews.framework */; };
 		69FD325A1CC959CC00C88ACA /* DesignableViews.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 69FD32441CC959CC00C88ACA /* DesignableViews.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		69FD32631CC95AEF00C88ACA /* CustomCellAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD32621CC95AEF00C88ACA /* CustomCellAView.swift */; };
-		69FD32651CC95B9300C88ACA /* CustomCellAView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69FD32641CC95B9300C88ACA /* CustomCellAView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,13 +83,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6951F8991CE2FB4900017138 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
-		6951F89C1CE302C200017138 /* DesignableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableCell.swift; sourceTree = "<group>"; };
-		6962CD8C1CC977CD005A8059 /* MyCustomView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomView2.xib; sourceTree = "<group>"; };
-		6962CD8E1CC977DB005A8059 /* MyCustomView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomView2.swift; sourceTree = "<group>"; };
-		6962CD951CC986EF005A8059 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image.png; path = demo/Assets.xcassets/Image.imageset/Image.png; sourceTree = "<group>"; };
-		6962CD9E1CC98D13005A8059 /* MyCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
-		6962CD9F1CC98D13005A8059 /* MyCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
+		6951F8A11CE3095700017138 /* CustomCellAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCellAView.swift; path = DesignableViews/CustomCellAView.swift; sourceTree = SOURCE_ROOT; };
+		6951F8A21CE3095700017138 /* CustomCellAView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCellAView.xib; path = DesignableViews/CustomCellAView.xib; sourceTree = SOURCE_ROOT; };
+		6951F8A31CE3095700017138 /* DesignableTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTableCell.swift; path = DesignableViews/DesignableTableCell.swift; sourceTree = SOURCE_ROOT; };
+		6951F8A41CE3095700017138 /* DesignableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DesignableView.h; path = DesignableViews/DesignableView.h; sourceTree = SOURCE_ROOT; };
+		6951F8A51CE3095700017138 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = DesignableViews/DesignableView.swift; sourceTree = SOURCE_ROOT; };
+		6951F8A61CE3095700017138 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DesignableViews/Info.plist; sourceTree = SOURCE_ROOT; };
+		6951F8A71CE3095700017138 /* MyCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCustomCell.swift; path = DesignableViews/MyCustomCell.swift; sourceTree = SOURCE_ROOT; };
+		6951F8A81CE3095700017138 /* MyCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyCustomCell.xib; path = DesignableViews/MyCustomCell.xib; sourceTree = SOURCE_ROOT; };
+		6951F8A91CE3095700017138 /* MyCustomView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCustomView2.swift; path = DesignableViews/MyCustomView2.swift; sourceTree = SOURCE_ROOT; };
+		6951F8AA1CE3095700017138 /* MyCustomView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyCustomView2.xib; path = DesignableViews/MyCustomView2.xib; sourceTree = SOURCE_ROOT; };
+		6951F8BA1CE30F1C00017138 /* Designable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Designable.swift; path = ../../../Documents/Designable.swift; sourceTree = "<group>"; };
+		6951F8BD1CE3113C00017138 /* DesignableTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTableViewDataSource.swift; sourceTree = "<group>"; };
+		69A1616F1CE3253400398460 /* DesignableTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTableViewDelegate.swift; sourceTree = "<group>"; };
 		69FD32041CC955F500C88ACA /* designables-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "designables-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD32071CC955F500C88ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69FD32091CC955F500C88ACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,13 +110,9 @@
 		69FD32271CC955F500C88ACA /* demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoUITests.swift; sourceTree = "<group>"; };
 		69FD32291CC955F500C88ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69FD32441CC959CC00C88ACA /* DesignableViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignableViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69FD32461CC959CC00C88ACA /* DesignableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignableView.h; sourceTree = "<group>"; };
-		69FD32481CC959CC00C88ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69FD324D1CC959CC00C88ACA /* DesignableViewsTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignableViewsTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD32541CC959CC00C88ACA /* MyCustomViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomViewTests.swift; sourceTree = "<group>"; };
 		69FD32561CC959CC00C88ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69FD32621CC95AEF00C88ACA /* CustomCellAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellAView.swift; sourceTree = "<group>"; };
-		69FD32641CC95B9300C88ACA /* CustomCellAView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellAView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +159,6 @@
 		69FD31FB1CC955F500C88ACA = {
 			isa = PBXGroup;
 			children = (
-				6962CD951CC986EF005A8059 /* Image.png */,
 				69FD32061CC955F500C88ACA /* designables-demo */,
 				69FD321B1CC955F500C88ACA /* demoTests */,
 				69FD32261CC955F500C88ACA /* demoUITests */,
@@ -189,6 +189,8 @@
 				69FD320E1CC955F500C88ACA /* Assets.xcassets */,
 				69FD32101CC955F500C88ACA /* LaunchScreen.storyboard */,
 				69FD32131CC955F500C88ACA /* Info.plist */,
+				6951F8BD1CE3113C00017138 /* DesignableTableViewDataSource.swift */,
+				69A1616F1CE3253400398460 /* DesignableTableViewDelegate.swift */,
 			);
 			name = "designables-demo";
 			path = demo;
@@ -215,16 +217,17 @@
 		69FD32451CC959CC00C88ACA /* DesignableViews */ = {
 			isa = PBXGroup;
 			children = (
-				69FD32461CC959CC00C88ACA /* DesignableView.h */,
-				6951F8991CE2FB4900017138 /* DesignableView.swift */,
-				6951F89C1CE302C200017138 /* DesignableCell.swift */,
-				69FD32621CC95AEF00C88ACA /* CustomCellAView.swift */,
-				69FD32641CC95B9300C88ACA /* CustomCellAView.xib */,
-				69FD32481CC959CC00C88ACA /* Info.plist */,
-				6962CD8C1CC977CD005A8059 /* MyCustomView2.xib */,
-				6962CD8E1CC977DB005A8059 /* MyCustomView2.swift */,
-				6962CD9E1CC98D13005A8059 /* MyCustomCell.swift */,
-				6962CD9F1CC98D13005A8059 /* MyCustomCell.xib */,
+				6951F8A11CE3095700017138 /* CustomCellAView.swift */,
+				6951F8A21CE3095700017138 /* CustomCellAView.xib */,
+				6951F8A51CE3095700017138 /* DesignableView.swift */,
+				6951F8A31CE3095700017138 /* DesignableTableCell.swift */,
+				6951F8A41CE3095700017138 /* DesignableView.h */,
+				6951F8A61CE3095700017138 /* Info.plist */,
+				6951F8A71CE3095700017138 /* MyCustomCell.swift */,
+				6951F8A81CE3095700017138 /* MyCustomCell.xib */,
+				6951F8A91CE3095700017138 /* MyCustomView2.swift */,
+				6951F8AA1CE3095700017138 /* MyCustomView2.xib */,
+				6951F8BA1CE30F1C00017138 /* Designable.swift */,
 			);
 			name = DesignableViews;
 			path = MyCustomView;
@@ -247,7 +250,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69FD32471CC959CC00C88ACA /* DesignableView.h in Headers */,
+				6951F8B41CE3097400017138 /* DesignableView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +406,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6962CD991CC98883005A8059 /* Image.png in Resources */,
 				69FD32121CC955F500C88ACA /* LaunchScreen.storyboard in Resources */,
-				69FD320F1CC955F500C88ACA /* Assets.xcassets in Resources */,
+				6951F8B91CE30AFC00017138 /* Assets.xcassets in Resources */,
 				69FD320D1CC955F500C88ACA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,11 +430,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6962CD9A1CC9888A005A8059 /* Image.png in Resources */,
+				6951F8B81CE309B800017138 /* CustomCellAView.xib in Resources */,
 				6962CD971CC987DF005A8059 /* Assets.xcassets in Resources */,
-				6962CDA31CC98EAD005A8059 /* MyCustomCell.xib in Resources */,
-				69FD32651CC95B9300C88ACA /* CustomCellAView.xib in Resources */,
-				6962CD921CC97DF2005A8059 /* MyCustomView2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,8 +449,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A161701CE3253400398460 /* DesignableTableViewDelegate.swift in Sources */,
 				69FD320A1CC955F500C88ACA /* ViewController.swift in Sources */,
 				69FD32081CC955F500C88ACA /* AppDelegate.swift in Sources */,
+				6951F8BE1CE3113C00017138 /* DesignableTableViewDataSource.swift in Sources */,
+				6951F8BB1CE30F1C00017138 /* Designable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,10 +477,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6951F8A01CE306A600017138 /* DesignableCell.swift in Sources */,
-				6951F89B1CE2FD3D00017138 /* DesignableView.swift in Sources */,
-				69FD32631CC95AEF00C88ACA /* CustomCellAView.swift in Sources */,
-				6962CD911CC97DE8005A8059 /* MyCustomView2.swift in Sources */,
+				6951F8B71CE3098000017138 /* DesignableView.swift in Sources */,
+				6951F8B61CE3097C00017138 /* DesignableTableCell.swift in Sources */,
+				6951F8BC1CE30F6600017138 /* Designable.swift in Sources */,
+				6951F8B51CE3097900017138 /* CustomCellAView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,6 +706,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "$(CONTENTS_FOLDER_PATH)/Headers";
 				INFOPLIST_FILE = DesignableViews/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -725,6 +728,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "$(CONTENTS_FOLDER_PATH)/Headers";
 				INFOPLIST_FILE = DesignableViews/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

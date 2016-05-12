@@ -22,7 +22,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyCell" rowHeight="150" id="s3h-5y-9RV">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyCell" rowHeight="150" id="s3h-5y-9RV" customClass="DesignableTableCell" customModule="DesignableViews">
                                         <rect key="frame" x="0.0" y="28" width="414" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s3h-5y-9RV" id="5xM-mn-bzZ">
@@ -40,10 +40,10 @@
                                                             <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="string" keyPath="text" value="Some Text"/>
-                                                        <userDefinedRuntimeAttribute type="image" keyPath="image" value="Image.png"/>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                             <real key="value" value="20"/>
                                                         </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="image" keyPath="image" value="mario"/>
                                                     </userDefinedRuntimeAttributes>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -63,19 +63,27 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                 </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="dmb-Og-n8I"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="3zP-rD-uLH"/>
-                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="icS-IU-Z88" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3AA-RP-Awj"/>
+                            <constraint firstItem="icS-IU-Z88" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="7Sp-Vi-XrX"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="icS-IU-Z88" secondAttribute="bottom" id="B7v-Hl-tnu"/>
                             <constraint firstItem="icS-IU-Z88" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bVw-U8-YLX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="icS-IU-Z88" secondAttribute="bottom" id="eQg-pb-ZoS"/>
+                            <constraint firstAttribute="trailing" secondItem="icS-IU-Z88" secondAttribute="trailing" id="psy-uU-8gQ"/>
                             <constraint firstAttribute="trailing" secondItem="icS-IU-Z88" secondAttribute="trailing" id="pyR-Go-JPb"/>
                             <constraint firstItem="icS-IU-Z88" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wIJ-RW-wdp"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="bVw-U8-YLX"/>
+                                <exclude reference="pyR-Go-JPb"/>
+                                <exclude reference="wIJ-RW-wdp"/>
+                                <exclude reference="B7v-Hl-tnu"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
@@ -84,10 +92,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="320" y="635"/>
+            <point key="canvasLocation" x="191" y="568"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Image.png" width="512" height="512"/>
+        <image name="mario" width="468" height="599"/>
     </resources>
 </document>
